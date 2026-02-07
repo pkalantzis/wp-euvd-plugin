@@ -1,0 +1,20 @@
+{
+  "apiVersion": 2,
+  "name": "euvd/latest-vulnerabilities",
+  "title": "EUVD Vulnerabilities",
+  "category": "widgets",
+  "icon": "shield",
+  "description": "Displays vulnerabilities from ENISA EUVD (latest/critical/exploited).",
+  "textdomain": "euvd-vuln",
+  "attributes": {
+    "type": {
+      "type": "string",
+      "default": "latest"
+    },
+    "count": {
+      "type": "number",
+      "default": 5
+    }
+  },
+  "editorScript": "file:./index.js"
+} 
