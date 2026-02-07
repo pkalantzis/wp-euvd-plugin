@@ -13,7 +13,7 @@ final class EUVD_Client {
 	 */
 	private const API_BASE = 'https://euvdservices.enisa.europa.eu/api';
 
-	/** Conservative HTTP args (v0.1.0). */
+	/** Conservative HTTP args (v0.2.1). */
 	private static function http_args(): array {
 		return [
 			'timeout'     => 10,

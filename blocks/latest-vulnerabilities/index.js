@@ -1,4 +1,4 @@
-/* EUVD Vulnerabilities Block (v0.1.0) - no-build editor script */
+/* EUVD Vulnerabilities Block (v0.2.1) - no-build editor script */
 (function (wp) {
 	if (!wp || !wp.blocks || !wp.element) {
 		return;

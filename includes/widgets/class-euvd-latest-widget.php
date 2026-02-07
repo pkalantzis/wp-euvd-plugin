@@ -9,7 +9,7 @@ if (!defined('ABSPATH')) {
 }
 
 /**
- * Widget: Latest Vulnerabilities (EUVD) - v0.1.0
+ * Widget: Latest Vulnerabilities (EUVD) - v0.2.1
  *
  * Features:
  * - Uses EUVD /search API via Shortcodes renderer

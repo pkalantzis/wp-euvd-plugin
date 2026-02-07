@@ -15,7 +15,8 @@ require_once EUVD_VULN_PLUGIN_DIR . 'includes/widgets/class-euvd-latest-widget.p
  *
  * v0.1.0 – Search-only architecture + CSS configuration
  * v0.2.0 – Admin menu + Tools (clear cache + API test) + clear cache on settings save
- */
+ * v0.2.1 – Minor file versioning fix
+*/
 final class EUVD_Plugin {
 
 	private static $instance = null;

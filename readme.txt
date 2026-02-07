@@ -4,7 +4,7 @@ Tags: security, vulnerabilities, euvd, enisa, cve, cybersecurity, eu
 Requires at least: 6.0
 Tested up to: 6.5
 Requires PHP: 7.4
-Stable tag: 0.2.0
+Stable tag: 0.2.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -39,6 +39,9 @@ This plugin is not affiliated with or endorsed by ENISA.
 3. Configure settings under EUVD Vulnerabilities → Settings
 
 == Changelog ==
+= 0.2.1 =
+* Minor file versioning fix
+
 = 0.2.0 =
 * Added dedicated admin menu with Dashboard, Settings, Tools, and About pages
 * Added Tools page with cache clearing and API connection test
