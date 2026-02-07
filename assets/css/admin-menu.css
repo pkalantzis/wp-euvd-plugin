@@ -1,0 +1,30 @@
+/* EUVD admin menu icon tweaks (v0.2.0)
+   Improves contrast/alignment across WP admin schemes
+   + subtle hover animation (CSS-only, admin-safe).
+*/
+
+#adminmenu .toplevel_page_euvd-vuln .wp-menu-image img {
+	width: 18px;
+	height: 18px;
+	padding-top: 7px; /* aligns vertically with menu text */
+	opacity: 0.92;
+
+	transition: opacity 140ms ease, filter 140ms ease, transform 140ms ease;
+	transform-origin: 50% 50%;
+	will-change: transform;
+}
+
+#adminmenu .toplevel_page_euvd-vuln:hover .wp-menu-image img,
+#adminmenu .toplevel_page_euvd-vuln.wp-has-current-submenu .wp-menu-image img {
+	opacity: 1;
+	filter: brightness(1.15) contrast(1.08);
+	transform: scale(1.06);
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+	#adminmenu .toplevel_page_euvd-vuln .wp-menu-image img {
+		transition: none;
+		transform: none;
+	}
+}

@@ -86,7 +86,7 @@ final class Shortcodes {
 	}
 
 	/**
-	 * Safe HTML renderer (v0.1)
+	 * Safe HTML renderer (v0.1.0). Escapes all data, best-effort links, and adds basic structure.
 	 */
 	private static function render_html_list(string $title, array $items, string $wrapper_class): string {
 		$out  = '<div class="' . esc_attr($wrapper_class) . '">';
